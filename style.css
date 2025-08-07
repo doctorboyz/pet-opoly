@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    overflow: hidden; /* Prevents scrollbars from confetti */
 }
 
 /* Main Game Container */
@@ -23,6 +24,9 @@ body {
     padding: 20px;
     max-width: 800px;
     width: 100%;
+    /* NEW: Ensure the container fits the screen and scrolls internally if needed */
+    max-height: 95vh;
+    overflow-y: auto;
 }
 
 .game-title {
