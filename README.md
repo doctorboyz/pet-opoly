@@ -2,8 +2,6 @@
 
 Welcome to Pet-opoly! This is a fun, browser-based board game inspired by Monopoly, but with a creative twist: instead of buying properties, you adopt adorable pets! This project is built with plain HTML, CSS, and JavaScript, focusing on a polished user experience without needing a server.
 
-
-
 ---
 
 ## ✨ Features
@@ -23,30 +21,23 @@ Welcome to Pet-opoly! This is a fun, browser-based board game inspired by Monopo
 
 ## 🚀 How to Play
 
-Since the project is built with static files, you don't need a web server to run it.
+This game is self-contained in a single HTML file, making it incredibly easy to run.
 
-1.  **Download the Files:** Make sure you have the following three files in the same folder:
-    * `index.html`
-    * `style.css`
-    * `script.js`
-
-2.  **Open in Browser:** Simply open the `index.html` file in your favorite web browser (like Chrome, Firefox, or Edge).
-
+1.  **Download the File:** Save the single HTML file to your computer.
+2.  **Open in Browser:** Simply open the downloaded file in your favorite web browser (like Chrome, Firefox, or Edge).
 3.  **Enjoy!** Configure the players on the setup screen and start your pet adoption adventure.
 
 ---
 
 ## 📁 File Structure
 
-The project is organized into three separate files for clarity and maintainability.
+The project is contained entirely within a single HTML file for maximum portability. All the necessary CSS for styling and JavaScript for game logic are embedded within it.
 
-
-/Pet-opoly-Game/├── 📄 index.html      # The main structure of the game├── 🎨 style.css       # All styling rules for layout, colors, and animations└── ⚙️ script.js       # All of the game logic and interactivity
+/Pet-opoly-Game/└── 📄 pet-opoly.html      # Contains all HTML, CSS, and JavaScript
 ---
 
-## ❤️ (Acknowledgements)
+## ❤️ กิตติกรรมประกาศ (Acknowledgements)
 
 ขอขอบคุณ **Lisha** ลูกสาวสุดที่รักที่เป็นแรงบันดาลใจและเป็นกำลังใจสำคัญในการสร้างเกมนี้ขึ้นมา
 
 (Thank you to my beloved daughter, **Lisha**, for being the inspiration and the main encouragement in creating this game.)
-
