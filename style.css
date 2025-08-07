@@ -680,6 +680,3 @@ body {
         flex-shrink: 0; 
     }
 }
-```
-
-Now that you have the `index.html` and `style.css` files, the final piece is the `script.js` file, which will contain all the game's log
