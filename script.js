@@ -706,6 +706,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial call to set up the first screen
     generatePlayerSetup();
 });
-```
-
-You now have all three separated files: `index.html`, `style.css`, and `script.js`. If you place them all in the same folder, your Pet-opoly game will run perfectly. This new structure is much more organized and easier to mainta
